@@ -7,19 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.rlds.bancorl.databinding.ActivityMainBinding;
+import com.rlds.bancorl.databinding.ActivitySaldoBinding;
 
-public class MainActivity extends AppCompatActivity {
-    private ActivityMainBinding binding;
+public class Saldo extends AppCompatActivity {
+    private ActivitySaldoBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivitySaldoBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        binding.imgSaldo.setOnClickListener(new View.OnClickListener() {
+
+        getSupportActionBar().hide();
+        binding.toolbarSaldo.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent  intent = new Intent(MainActivity.this,Saldo.class);
+                Intent intent = new Intent(Saldo.this, MainActivity.class);
                 startActivity(intent);
 
             }

@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/BancoRL/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/ryanl/AndroidStudioProjects/BancoRL/app/src/main/res/drawable/ic_voltar.xml" value="0.1" />
         <entry key="..\:/Users/ryanl/AndroidStudioProjects/BancoRL/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ryanl/AndroidStudioProjects/BancoRL/app/src/main/res/layout/activity_saldo.xml" value="0.18" />
       </map>
     </option>
   </component>
