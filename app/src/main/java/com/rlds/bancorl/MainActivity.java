@@ -24,5 +24,12 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        binding.imgFaturas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Faturas.class);
+                startActivity(intent);
+            }
+        });
     }
 }
