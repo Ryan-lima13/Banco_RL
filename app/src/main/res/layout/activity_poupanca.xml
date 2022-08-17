@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Poupanca">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarPoupanca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Poupança"
+        app:titleTextColor="@color/white"
+        android:background="@color/blue"
+        app:navigationIcon="@drawable/ic_voltar"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor Total"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5000,00 Reais"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>

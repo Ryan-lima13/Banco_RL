@@ -31,5 +31,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        binding.imgTransferencia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Transferencias.class);
+                startActivity(intent);
+            }
+        });
+        binding.imgPoupancas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Poupanca.class);
+                startActivity(intent);
+            }
+        });
     }
 }
